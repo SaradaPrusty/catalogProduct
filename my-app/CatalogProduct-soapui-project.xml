@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="ef675714-e6aa-4858-9add-67bccd1b8fd8" activeEnvironment="Default" name="CatalogProduct" resourceRoot="" soapui-version="5.5.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="41ce38c5-7ab6-4b65-a390-10a8aafb056d" wsaVersion="NONE" name="catalogProductRepositoryV1Binding" type="wsdl" bindingName="{http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1}catalogProductRepositoryV1Binding" soapVersion="1_2" anonymous="optional" definition="file:/C:/Users/SaradaPrusty/Desktop/Windows7%20Bckup/Badges_IBM/SDET%20Tester%20Manipal/Assignment/Webservice%20API%20Assignment/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/catalogProductRepositoryV1.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/C:/Users/SaradaPrusty/Desktop/Windows7%20Bckup/Badges_IBM/SDET%20Tester%20Manipal/Assignment/Webservice%20API%20Assignment/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/catalogProductRepositoryV1.xml"><con:part><con:url>file:/C:/Users/SaradaPrusty/Desktop/Windows7%20Bckup/Badges_IBM/SDET%20Tester%20Manipal/Assignment/Webservice%20API%20Assignment/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/catalogProductRepositoryV1.xml</con:url><con:content><![CDATA[<definitions name="MagentoWSDL" targetNamespace="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/">
+<con:soapui-project id="ef675714-e6aa-4858-9add-67bccd1b8fd8" activeEnvironment="Default" name="CatalogProduct" resourceRoot="" soapui-version="5.5.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="41ce38c5-7ab6-4b65-a390-10a8aafb056d" wsaVersion="NONE" name="catalogProductRepositoryV1Binding" type="wsdl" bindingName="{http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1}catalogProductRepositoryV1Binding" soapVersion="1_2" anonymous="optional" definition="file:/C:/Users/SaradaPrusty/Desktop/Windows7%20Bckup/Badges_IBM/SDET%20Tester%20Manipal/Assignment/Webservice%20API%20Assignment/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/catalogProductRepositoryV1.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/C:/Users/SaradaPrusty/Desktop/Windows7%20Bckup/Badges_IBM/SDET%20Tester%20Manipal/Assignment/Webservice%20API%20Assignment/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/catalogProductRepositoryV1.xml"><con:part><con:url>file:/C:/Users/SaradaPrusty/Desktop/Windows7%20Bckup/Badges_IBM/SDET%20Tester%20Manipal/Assignment/Webservice%20API%20Assignment/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/catalogProductRepositoryV1.xml</con:url><con:content><![CDATA[<definitions name="MagentoWSDL" targetNamespace="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/">
   <types>
     <xsd:schema targetNamespace="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
       <xsd:element name="GenericFault" type="tns:GenericFault"/>
@@ -4858,10 +4858,10 @@ def holder = new XmlHolder(response)
 assert holder.getNodeValue("//*:name") != null
 
 
-</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="bf42625b-f98b-4b41-afcb-67e4ccdfbefa" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC_008" searchProperties="true"><con:settings/><con:testStep type="properties" name="Properties" id="1288790f-e024-4843-aabc-01fa8e6be312"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>sku</con:name><con:value>SKU13000</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="jdbc" name="JDBC Request" id="c5e025db-b878-40f0-8f8f-94ee84e61ff8"><con:settings/><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:driver>com.mysql.jdbc.Driver</con:driver><con:connectionString>jdbc:mysql://localhost:3306/product?user=root&amp;password=root</con:connectionString><con:query>select * from productdetails;</con:query><con:properties/></con:config></con:testStep><con:testStep type="request" name="SaveaProduct" id="beb58c87-8082-40c8-8b8f-a3a6f0ade3da"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>catalogProductRepositoryV1Binding</con:interface><con:operation>catalogProductRepositoryV1Save</con:operation><con:request name="SaveaProduct" id="63bc5fa9-bc39-408d-80f0-fc70fd88e525"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="bearer ${#TestSuite#Key}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">\r
-   <soap:Header/>\r
-   <soap:Body>\r
-      <def:catalogProductRepositoryV1SaveRequest>\r
+</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="bf42625b-f98b-4b41-afcb-67e4ccdfbefa" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC_008" searchProperties="true"><con:settings/><con:testStep type="properties" name="Properties" id="1288790f-e024-4843-aabc-01fa8e6be312"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>sku</con:name><con:value>SKU13000</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="jdbc" name="JDBC Request" id="c5e025db-b878-40f0-8f8f-94ee84e61ff8"><con:settings/><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:driver>com.mysql.jdbc.Driver</con:driver><con:connectionString>jdbc:mysql://localhost:3306/product?user=root&amp;password=root</con:connectionString><con:query>select * from productdetails;</con:query><con:properties/></con:config></con:testStep><con:testStep type="request" name="SaveaProduct" id="beb58c87-8082-40c8-8b8f-a3a6f0ade3da"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>catalogProductRepositoryV1Binding</con:interface><con:operation>catalogProductRepositoryV1Save</con:operation><con:request name="SaveaProduct" id="63bc5fa9-bc39-408d-80f0-fc70fd88e525"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="bearer ${#TestSuite#Key}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1SaveRequest>
            <product>
            <sku>${Properties#sku}</sku>
                   <name>${JDBC Request#ResponseAsXml#//ResultSet/Row[1]/PRODUCTDETAILS.NAME}</name>
@@ -4869,8 +4869,8 @@ assert holder.getNodeValue("//*:name") != null
                   <price>${JDBC Request#ResponseAsXml#//ResultSet/Row[1]/PRODUCTDETAILS.PRICE}</price>
                   <typeId>simple</typeId> 
          </product>
-      </def:catalogProductRepositoryV1SaveRequest>\r
-   </soap:Body>\r
+      </def:catalogProductRepositoryV1SaveRequest>
+   </soap:Body>
 </soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="db5be95e-245e-4161-8edc-ba4320ea1f52"/><con:assertion type="SOAP Fault Assertion" id="2cb0e1c1-51f3-4eb3-b555-48000ea59b5b" name="Not SOAP Fault"/><con:assertion type="Valid HTTP Status Codes" id="2a3ba94a-67a8-43dd-8908-4d742ee8c16c" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="d894caaf-191c-4a06-95e2-2a14984f2da4" name="Script Assertion"><con:configuration><scriptText>//when u want to use xmlHolde ,please import the below line
 import com.eviware.soapui.support.XmlHolder
 //This is to fetch the response from a testcase
@@ -4912,7 +4912,7 @@ context.testCase.testSuite.setPropertyValue("skuvalue",skuvalue)</scriptText></c
 </soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="56f47151-fdf2-4af2-8346-a1b0ac9062e7"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="goto" name="Conditional Goto" id="4832c1e7-3a05-49a5-8f4c-5f0703e73447"><con:settings/><con:config xsi:type="con:GotoStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:condition><con:name>Condition 1</con:name><con:type>XPATH</con:type><con:expression>declare namespace env='http://www.w3.org/2003/05/soap-envelope';
 declare namespace ns1='http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1';
 
-//*:sku = "${#TestSuite#skuvalue}"</con:expression><con:targetStep>Groovy Script</con:targetStep></con:condition></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="4eba54d5-2ab5-47eb-adff-79218c424677"><con:settings/><con:config><script>//when u want to use xmlHolde ,please import the below line
+ //*:sku = "${#TestSuite#skuvalue}"</con:expression><con:targetStep>Groovy Script</con:targetStep></con:condition></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="4eba54d5-2ab5-47eb-adff-79218c424677"><con:settings/><con:config><script>//when u want to use xmlHolde ,please import the below line
 import com.eviware.soapui.support.XmlHolder
 //This is to fetch the response from a testcase
 //Context will be used to fetch within the testcase
@@ -4955,14 +4955,131 @@ tc11.testSteps["skuproperty"].setPropertyValue("sku",skufromresponse)
 // assert that only four steps ran!!
 //assert runner.results.size() == 3
 
-</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="1ca86302-e1c2-4308-a1e5-a61a5f8255d4" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC_011" searchProperties="true"><con:settings/><con:testStep type="properties" name="skuproperty" id="a0eed301-67ce-4c91-b133-b9928dc5fc24"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>sku</con:name><con:value>SKU13000</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="transfer" name="Property Transfer" id="8e31fd6c-ca9c-4d51-89c5-b743a6d6139e"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>skuvaluetransfer</con:name><con:sourceType>sku</con:sourceType><con:sourceStep>skuproperty</con:sourceStep><con:targetType>Request</con:targetType><con:targetStep>Delete</con:targetStep><con:targetPath>declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="1ca86302-e1c2-4308-a1e5-a61a5f8255d4" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC_011" searchProperties="true"><con:settings/><con:testStep type="properties" name="skuproperty" id="a0eed301-67ce-4c91-b133-b9928dc5fc24"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>sku</con:name><con:value>SKU90000</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="transfer" name="Property Transfer" id="8e31fd6c-ca9c-4d51-89c5-b743a6d6139e"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>skuvaluetransfer</con:name><con:sourceType>sku</con:sourceType><con:sourceStep>skuproperty</con:sourceStep><con:targetType>Request</con:targetType><con:targetStep>Delete</con:targetStep><con:targetPath>declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
 declare namespace ns1='http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1';
 
 //*:sku</con:targetPath><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="request" name="Delete" id="1dc494b6-2a5d-4ef0-8953-3fec785ad78e"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>catalogProductRepositoryV1Binding</con:interface><con:operation>catalogProductRepositoryV1DeleteById</con:operation><con:request name="Delete" id="10fc8a91-40b6-464e-b637-b66a69b6fb77"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="bearer ${#TestSuite#key}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
    <soap:Header/>
    <soap:Body>
       <def:catalogProductRepositoryV1DeleteByIdRequest>
-         <sku>SKU13000</sku>
+         <sku>SKU90000</sku>
       </def:catalogProductRepositoryV1DeleteByIdRequest>
    </soap:Body>
-</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="11629db4-878a-4ca9-bfce-67d03793c747"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>Key</con:name><con:value>f0rf13pxtxp7mftwc23rq6e52yvmi5um</con:value></con:property><con:property><con:name>skuvalue</con:name><con:value>SKU13000</con:value></con:property></con:properties></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="11629db4-878a-4ca9-bfce-67d03793c747"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties><con:property><con:name>Key</con:name><con:value>f0rf13pxtxp7mftwc23rq6e52yvmi5um</con:value></con:property><con:property><con:name>skuvalue</con:name><con:value>SKU13000</con:value></con:property></con:properties></con:testSuite><con:testSuite id="182db5f5-cbc1-4212-a870-583578f317b8" name="EndtoEnd SystemTest"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="1f025220-fdde-4425-a0d2-d3ab2c2e5089" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="EndtoEndST" searchProperties="true"><con:settings/><con:testStep type="groovy" name="EndtoEndSystemTest" id="4f16ce1e-797f-42dd-add0-9b2e45d4e507"><con:settings/><con:config><script>//Modularize
+import com.eviware.soapui.model.testsuite.TestRunner.Status
+
+// get TestSuite
+def tc = testRunner.testCase.testSuite.project.testSuites["catalogproduct"]
+
+// run test synchrouously
+def runner = tc.run( null, false )
+
+
+log.info "Status: $runner.status, time taken for TestSuite was: $runner.timeTaken ms"
+log.info "Number of test Cases which ran: " + runner.results.size()
+
+assert runner.status != Status.FAILED : runner.reason
+
+assert runner.results.size() == 6</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:testSuite id="b650a278-ea9d-46c8-ac6b-3c8813056d29" name="DataDriven Testing"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="0c34910a-bc18-41b3-ab04-47aea8d2fb43" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="DataDriven" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Groovy Script" id="c738f370-d3e8-48e3-a304-c6474a5372f2"><con:settings/><con:config><script>import jxl.*
+def skuvalue
+def productname
+def attributeid
+def productprice
+def type
+import com.eviware.soapui.support.XmlHolder
+String filepath="C:/Users/SaradaPrusty/Desktop/Windows7 Bckup/Badges_IBM/SDET Tester Manipal/Assignment/Webservice API Assignment/Saveproducts.xls"
+File Excel = new File(filepath)
+// This is the excel with contains workbook and workbook contains sheet should be in .xls file
+Workbook wb = Workbook.getWorkbook(Excel)
+//i want to fetch the sheet (SheetName from Excel) 
+Sheet sh=wb.getSheet("Sheet1")
+def rowsize = sh.getRows().toInteger()
+def columnsize = sh.getColumns().toInteger()
+
+log.info "The total number of rows are $rowsize"
+log.info "The total number of Columns are $columnsize"
+
+for (def i=1;i&lt;rowsize;i++){
+	for (def j=0;j&lt;columnsize;j++){
+	   if (j==0){
+	   	 skuvalue = sh.getCell(j,i).getContents()
+	   	// log.info skuvalue
+	   }
+	   else if (j==1)
+	   {
+	   	 productname = sh.getCell(j,i).getContents()
+	   	// log.info productname
+	   }
+	   else if (j==2)
+	   {
+	   	attributeid = sh.getCell(j,i).getContents()
+	   //	log.info attributeid
+	   }
+	   else if (j==3)
+	   {
+	   	productprice = sh.getCell(j,i).getContents()
+	   	//log.info productprice
+	   }
+	   else if (j==4)
+	   {
+	   	type = sh.getCell(j,i).getContents()
+	   	//log.info type
+	   }
+	 
+   }
+
+   //We want to call Property Expansion Login &amp; Logout testcase and change the username and password from the excel sheet and then run all the steps for that particular username
+def tc = testRunner.testCase.testSuite.project.testSuites['DataDriven Testing'].testCases['DataDriven']
+tc.testSteps["Properties"].setPropertyValue("skuvalue",skuvalue)
+tc.testSteps["Properties"].setPropertyValue("productname",productname)
+tc.testSteps["Properties"].setPropertyValue("attributeid",attributeid)
+tc.testSteps["Properties"].setPropertyValue("productprice",productprice)
+tc.testSteps["Properties"].setPropertyValue("type",type)
+
+log.info "skuvalue is $skuvalue"
+log.info "productname is $productname"
+log.info "attributeid is $attributeid"
+log.info "productprice is $productprice"
+log.info "type is $type"
+def req = testRunner.testCase.testSuite.project.testSuites['DataDriven Testing'].testCases['DataDriven'].getTestStepByName("Saveproductfromexcel").getPropertyValue("request")
+def holder = new XmlHolder(req)
+holder.setNodeValue("//*:sku",skuvalue)
+holder.setNodeValue("//*:name",productname)
+holder.setNodeValue("//*:attributeSetId",attributeid)
+holder.setNodeValue("//*:price",productprice)
+holder.setNodeValue("//*:typeId",type)
+def updated = holder.getXml()
+testRunner.testCase.testSuite.project.testSuites['DataDriven Testing'].testCases['DataDriven'].getTestStepByName("Saveproductfromexcel").setPropertyValue("request",updated)
+
+def status = testRunner.testCase.testSuite.project.testSuites['DataDriven Testing'].testCases['DataDriven'].getTestStepByName("Saveproductfromexcel")
+def res1 = status.run(testRunner, context)
+def res2 = res1.getStatus().toString()
+
+def skufromDatadriven = testRunner.testCase.testSuite.project.testSuites["DataDriven Testing"].testCases["DataDriven"].getTestStepByName('Saveproductfromexcel').getPropertyValue("Response")
+def tc11 = testRunner.testCase.testSuite.project.testSuites["catalogproduct"].testCases["TC_011"]
+
+log.info skufromDatadriven
+def holder2 = new XmlHolder(skufromDatadriven)
+def skufromresponse = holder2.getNodeValue("//*:sku")
+log.info skufromresponse
+
+tc11.testSteps["skuproperty"].setPropertyValue("sku",skufromresponse)
+
+
+def statusdelete = testRunner.testCase.testSuite.project.testSuites["catalogproduct"].testCases["TC_011"]
+def resfinal = statusdelete.run(null, false)
+}
+</script></con:config></con:testStep><con:testStep type="properties" name="Properties" id="a933bae5-2284-4a83-a9ca-78097b59d2e8"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>skuvalue</con:name><con:value>SKU90000</con:value></con:property><con:property><con:name>productname</con:name><con:value>Macbook pro</con:value></con:property><con:property><con:name>attributeid</con:name><con:value>4</con:value></con:property><con:property><con:name>productprice</con:name><con:value>90000</con:value></con:property><con:property><con:name>type</con:name><con:value>simple</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="request" name="Saveproductfromexcel" id="a65e21db-656d-40a4-98c2-c104d0a931ab"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>catalogProductRepositoryV1Binding</con:interface><con:operation>catalogProductRepositoryV1Save</con:operation><con:request name="Saveproductfromexcel" id="6af6f812-7bdf-4a85-a6f3-3c184b9c2a47"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="bearer ${#Project#Key}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1SaveRequest>
+           <product>
+           <sku>SKU90000</sku>
+                  <name>Macbook pro</name>
+                  <attributeSetId>4</attributeSetId>
+                  <price>90000</price>
+                  <typeId>simple</typeId> 
+         </product>
+      </def:catalogProductRepositoryV1SaveRequest>
+   </soap:Body>
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" id="5217089e-19e4-46bf-80a9-d5c83a2969af"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties><con:property><con:name>Key</con:name><con:value>f0rf13pxtxp7mftwc23rq6e52yvmi5um</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
